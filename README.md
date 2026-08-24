@@ -9,5 +9,7 @@ MikroTik RouterOS Scripts - https://github.com/hreskiv/ros-scripts
 
 All Cybercrime IP Feeds - https://iplists.firehol.org/
 
+Feodo Tracker - https://feodotracker.abuse.ch/blocklist/
 
+blocklist-ipsets - https://github.com/firehol/blocklist-ipsets/tree/master
 
