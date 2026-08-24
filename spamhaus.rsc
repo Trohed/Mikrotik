@@ -1,4 +1,4 @@
-# Generated on 24 Aug 2026 at 14:29:31
+# Generated on 24 Aug 2026 at 23:11:25
 :do {/ip firewall address-list
 :do {add address=1.10.16.0/20 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=1.19.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
@@ -737,7 +737,6 @@
 :do {add address=150.10.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=150.22.128.0/17 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=150.25.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
-:do {add address=150.40.96.0/19 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=150.129.212.0/22 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=150.242.120.0/22 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=151.131.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
@@ -934,6 +933,7 @@
 :do {add address=185.14.192.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=185.19.40.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=185.30.168.0/22 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
+:do {add address=185.34.147.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=185.36.80.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=185.36.81.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=185.36.82.0/23 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
@@ -1701,31 +1701,27 @@
 :do {add address=223.155.16.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=223.169.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=223.254.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
-:do {add address=162.243.103.246 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=178.62.3.223 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=27.133.154.218 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=34.204.119.63 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=50.16.16.211 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=94.154.32.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=195.177.94.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=151.243.11.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=66.132.186.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=65.49.1.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=85.217.149.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=85.217.140.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=198.235.24.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=199.45.154.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=91.231.89.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=147.185.132.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=66.132.172.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=45.205.1.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=185.224.128.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=45.198.224.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=91.230.168.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=193.163.125.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=65.49.20.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=79.124.58.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=195.184.76.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=146.88.241.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=78.128.114.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=162.243.103.246 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=178.62.3.223 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=27.133.154.218 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=34.204.119.63 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=50.16.16.211 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=5.61.209.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=45.194.67.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=45.198.224.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=64.62.156.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=64.62.197.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=65.49.1.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=66.132.172.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=66.132.186.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=66.132.195.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=69.5.169.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=147.185.132.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=151.243.11.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=167.94.145.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=172.110.223.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=193.163.125.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=198.235.24.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=199.45.154.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
+:do {add address=205.210.31.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
 }
