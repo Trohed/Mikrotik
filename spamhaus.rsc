@@ -1,10 +1,11 @@
-# Generated on 24 Aug 2026 at 00:04:04
+# Generated on 24 Aug 2026 at 12:15:01
 :do {/ip firewall address-list
 :do {add address=1.10.16.0/20 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=1.19.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=1.32.128.0/18 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=2.26.75.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=2.27.5.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
+:do {add address=2.27.62.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=2.56.192.0/22 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=2.57.17.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=2.57.122.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
@@ -28,6 +29,7 @@
 :do {add address=14.128.48.0/21 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=14.152.94.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=19.200.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
+:do {add address=23.94.252.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=23.128.48.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=23.129.252.0/23 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=23.132.164.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
