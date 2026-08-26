@@ -1,4 +1,4 @@
-# Generated on 26 Aug 2026 at 12:49:26
+# Generated on 26 Aug 2026 at 21:23:01
 :do {/ip firewall address-list
 :do {add address=193.47.62.69 list=blacklist comment=IPsum timeout=24h} on-error={}
 :do {add address=62.60.130.201 list=blacklist comment=IPsum timeout=24h} on-error={}
