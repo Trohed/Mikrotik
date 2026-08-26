@@ -1,4 +1,4 @@
-# Generated on 26 Aug 2026 at 12:50:55
+# Generated on 26 Aug 2026 at 21:23:13
 :do {/ip firewall address-list
 :do {add address=1.10.16.0/20 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=1.19.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
