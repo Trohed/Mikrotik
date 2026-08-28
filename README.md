@@ -13,3 +13,8 @@ Feodo Tracker - https://feodotracker.abuse.ch/blocklist/
 
 blocklist-ipsets - https://github.com/firehol/blocklist-ipsets/tree/master
 
+
+
+
+	
+IPdeny country block - https://www.ipdeny.com/ipblocks/
