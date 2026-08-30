@@ -1,4 +1,4 @@
-# Generated on 30 Aug 2026 at 06:30:38
+# Generated on 30 Aug 2026 at 20:43:30
 :do {/ip firewall address-list
 :do {add address=1.10.16.0/20 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=1.19.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
@@ -1705,6 +1705,11 @@
 :do {add address=223.155.16.0/24 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=223.169.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
 :do {add address=223.254.0.0/16 list=blacklist comment=Spamhaus-DROP timeout=24h} on-error={}
+:do {add address=162.243.103.246 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=178.62.3.223 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=27.133.154.218 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=34.204.119.63 list=blacklist comment=Feodo timeout=24h} on-error={}
+:do {add address=50.16.16.211 list=blacklist comment=Feodo timeout=24h} on-error={}
 :do {add address=64.62.197.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
 :do {add address=65.49.20.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
 :do {add address=66.132.172.0/24 list=blacklist comment=Dshield timeout=24h} on-error={}
